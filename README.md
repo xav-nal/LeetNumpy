@@ -12,3 +12,4 @@ LeetNumpy is a set of Numpy practice problems, inspired by LeetCode exercices, d
 
 ## Maths:
 - [2. Standardize the Data](https://github.com/xav-nal/LeetNumpy/blob/main/2_standardize_data.ipynb) [(Solution)](https://github.com/xav-nal/LeetNumpy/blob/main/solutions/standardize_data.py) 
+- [5. Compute the MSE and MAE](https://github.com/xav-nal/LeetNumpy/blob/main/5_MSE_MAE.ipynb) [(Solution)](https://github.com/xav-nal/LeetNumpy/blob/main/solutions/compute_mse_and_mae.py) 
