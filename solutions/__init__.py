@@ -1,3 +1,4 @@
 # solutions/__init__.py
 
-from .solutions import rotate_matrix_90_sol
+from .rotation_matrix_90 import rotate_matrix_90_sol
+from .standardize_data import standardize_sol
