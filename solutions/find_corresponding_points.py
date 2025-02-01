@@ -8,9 +8,5 @@ def find_corresponding_points_sol(img1: np.ndarray, img2: np.ndarray) -> np.ndar
 
 def find_corresponding_points_sol_2(img1: np.ndarray, img2: np.ndarray) -> np.ndarray:
     """"""
-    squared_diffs = (img1[:, np.newaxis, :] - img2)**2
-    squared_distances = np.sum(squared_diffs, axis=2)
-    distances = np.sqrt(squared_distances)
-
     distances = np.sqrt(np.sum((img1[:, np.newaxis, :] - img2)**2, axis=2))
     return np.argmin(distances, axis=1)
