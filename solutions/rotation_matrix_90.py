@@ -1,4 +1,4 @@
-# solutions/solutions.py
+# solutions/1_rotate_matrix_90.py
 import numpy as np
 
 def rotate_matrix_90_sol(matrix: np.ndarray) -> np.ndarray:
